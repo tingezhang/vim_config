@@ -36,6 +36,10 @@ let Tlist_Exit_OnlyWindow=1
 nmap wm :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle<CR>:q<CR> endif <CR><CR>
 nmap <F3> :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle<CR>:q<CR> endif <CR><CR>
 
+" key map for session
+:nmap sl :SessionList<CR>
+:nmap ss :SessionSave<CR>
+:nmap sc :SessionClose<CR>
 
 :map <F7> <Esc>A("%s,%d \n", __FUNCTION__, __LINE__);<Esc>bbbbbbb
 
