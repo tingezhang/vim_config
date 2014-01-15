@@ -49,3 +49,7 @@ nmap <F3> :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle
 :nmap <C-f>c :cs find c <C-R><C-W><CR>
 :nmap <C-f>t :cs find t <C-R><C-W><CR>
 
+:set ruler
+:set t_Co=256
+:highlight ColorColumn ctermbg=39
+:set colorcolumn=80
