@@ -54,3 +54,4 @@ nmap <F3> :if IsWinManagerVisible() <BAR> WMToggle<CR> <BAR> else <BAR> WMToggle
 :highlight ColorColumn ctermbg=39
 :set colorcolumn=80
 :highlight Pmenu ctermbg=5
+:set mouse=a
